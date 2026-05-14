@@ -42,3 +42,29 @@ terraform.rc
 # Optional: ignore plan files saved before destroying Terraform configuration
 # Uncomment the line below if you want to ignore planout files.
 # planout
+
+.keys
+
+
+# Virtual environment
+.venv/
+
+# Lockfile
+# Recommended to COMMIT for applications, but sometimes IGNORED for libraries
+# uv.lock
+
+# Python build artifacts
+dist/
+build/
+*.egg-info/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+
+# GCP credentials
+keys/creds.json

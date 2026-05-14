@@ -3,9 +3,9 @@ variable "credentials" {
   default     = "./keys/creds.json"
 }
 
-variable "project" {
-  description = "Project."
-  default     = "ace-prep-487314"
+variable "google_project_id" {
+  description = "Project_id."
+  type        = string
 }
 
 variable "location" {
